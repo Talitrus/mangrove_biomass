@@ -1,0 +1,21 @@
+---
+title: "Mangrove Biomass modeling"
+output: html_notebook
+---
+
+This notebook is for estimating the above-ground biomass of mangroves in Bocas del Toro, Panama from survey data.
+```{r}
+#load libraries
+library(rethinking)
+library(rstan)
+library(ggplot2)
+library(MASS)
+
+#load data
+survey <- read.delim(file = 'mangrove_survey_data.tsv')
+
+```
+
+
+
+
